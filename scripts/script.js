@@ -26,6 +26,11 @@ function putGrids(size = 2) { //make 2 x 2 by default or given size
     }
 }
 
+const clearButton = document.querySelector("#reset");
+clearButton.addEventListener("click", () => {
+    container.querySelectorAll("div").forEach(each => each.style.background = "none");
+})
+
 //JS for slider
 const range = document.getElementById("range");
 const value = document.getElementById("value");
