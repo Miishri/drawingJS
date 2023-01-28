@@ -4,3 +4,20 @@
     height: 600px;
     width: 600px;
 }
+
+/*slider css from w3schools*/
+.slidecontainer {
+    width: 100%;
+  }
+  
+.slider {
+    appearance: none;
+    width: 20%;
+    height: 10px;
+    border-radius: 5px; 
+    background: lightblue;
+    outline:none;
+    transition: .1s;
+    transition: opacity .2s;
+}
+  
