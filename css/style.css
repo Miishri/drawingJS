@@ -1,26 +1,60 @@
 .container {
     display: grid;
     border: 2px solid black;
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
+    margin-left: 35%;
 }
 
 /*slider css from w3schools*/
 .slidecontainer {
     width: 100%;
-  }
+}
   
 .slider {
     appearance: none;
     width: 20%;
     height: 10px;
     border-radius: 5px; 
-    background: lightblue;
+    background: lightyellow;
     outline:none;
     transition: .1s;
     transition: opacity .2s;
+    margin-left: 45%;
+    margin-bottom: 15px;
 }
 
+.size {
+    margin: 4% 35% 1% 53%;
+    font-size: large;
+}
+
+/*-----*/
+
 #reset {
-    
+    position: absolute;
+    margin-top: 1.3%;
+    margin-left: 67%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+    border: 0;
+}
+#reset:hover {
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    scale: 1.1;
+}
+
+.title {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 35%;
+    margin-top: 1.5%;
+    font-size: 30px;
+}
+
+body{
+    background-color: #CBC3E3;
 }

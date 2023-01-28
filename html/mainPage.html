@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
+    <title>Etch-a-Sketch</title>
 </head>
 <body>
-    <div class="container"></div>
+    <p class="title">Etch-a-Sketch</p>
+    <button id="reset">Erase</button>
     <div class="slideContainer">
+        <p class="size">Size: <span id="value"></span></p>
         <input type="range" min="2" max="100" value="16" class="slider" id="range">
-        <p>Size: <span id="value"></span></p>
     </div>
-    <button id="reset">Clear</button>
+    <div class="container"></div>
 </body>
 <script src="/scripts/script.js" defer></script>
 </html>
