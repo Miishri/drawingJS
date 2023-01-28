@@ -37,5 +37,5 @@ const value = document.getElementById("value");
 
 range.oninput = function(){
     putGrids(this.value);
-    value.innerText = this.value;
+    value.innerText = `${this.value} x ${this.value}`;
 }
